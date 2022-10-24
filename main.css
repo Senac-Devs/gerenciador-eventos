@@ -1,5 +1,46 @@
 title{
     background-color: black;
 
-    
+
+}
+
+
+.container div {
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid pink;   
+}
+
+#header {
+    grid-area: header;
+}
+#sidebar {
+    grid-area: sidebar;
+    height: 2vh;
+}
+#content {
+    grid-area: content;
+    height: 100vh;
+}
+#footer {
+    grid-area: footer;
+}
+
+
+
+
+.classeblocos{
+ font-family: sans-serif;
+}
+.columns {
+    display:flex;
+}
+.column{
+    background: #eee;
+    border: 5px solid #ccc;
+    flex: 1;
+    padding: 100px;
+}
+.main-column {
+flex:1;
 }
