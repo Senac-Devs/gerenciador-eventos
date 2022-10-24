@@ -1,29 +1,7 @@
-/*.container {
-    background-color: #333;
-    border: 1px solid red;
-    padding: 15px;
-    display: grid; 
-    grid-template-columns: 150px  10%;
-    he
-}
+title{
+    background-color: black;
 
-.container div {
-    background-color: #ccc;
-    padding: 20px;
-    border: 1px solid blue;
-}*/
 
-.container {
-    background-color: aliceblue;
-    border: 3px solid pink;
-    padding: 15px;
-    display: grid; 
-    gap: 5px;
-    grid-template-areas: 
-    'header header header'
-    'sidebar sidebar sidebar'
-    'content content content'
-    'footer footer footer'
 }
 
 
@@ -52,7 +30,7 @@
 
 
 .classeblocos{
-    font- font-family: sans-serif;
+ font-family: sans-serif;
 }
 .columns {
     display:flex;
