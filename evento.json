@@ -1,9 +1,7 @@
 {
-    "Eventos": [
-        {
-            "titulo": "teste de título",
-            "local": "teste de local",
-            "data": "18/10/2022"
-        }
-    ]
+    "Eventos": {
+        "titulo": "teste de título",
+        "local": "teste de local",
+        "data": "18/10/2022"
+    }
 }
