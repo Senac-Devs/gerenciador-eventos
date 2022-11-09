@@ -1,22 +1,23 @@
 title{
     background-color: black;
-
-
 }
 
 
 .container div {
-    background-color: #ccc;
+    background-color: white;
     padding: 20px;
-    border: 1px solid pink;   
+    border: 1px solid white;   
 }
 
 #header {
     grid-area: header;
+    text-align: center;
 }
 #sidebar {
     grid-area: sidebar;
     height: 2vh;
+    text-align: center;
+    
 }
 #content {
     grid-area: content;
@@ -36,11 +37,15 @@ title{
     display:flex;
 }
 .column{
-    background: #eee;
-    border: 5px solid #ccc;
+    background: white;
+    border: 5px solid white ;
     flex: 1;
     padding: 100px;
 }
 .main-column {
 flex:1;
+}
+
+.categorias {
+    font-weight: bold
 }
