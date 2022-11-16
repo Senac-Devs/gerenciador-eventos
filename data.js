@@ -1,2 +1,6 @@
-import data from "./evento.json";
-var eventos=data
+let data = [];
+//import data from "./evento.json";
+let eventos = JSON.stringify(data);
+
+eventos = data;
+console.log(eventos);
