@@ -1,9 +1,12 @@
- h1{background-color: rgb(13, 13, 14);
-    
-}
-
 body {
-    margin: 0;
-    background: #504f4f;
-    font-size: 1em;
+    width: 100%;
+    border-color: black;
+    border: 100px;
+    padding: 50px;
+    margin: 400px;
+}
+head {
+    display: flex;
+    margin: 50px;
+    border: 50px;
 }
