@@ -40,7 +40,7 @@ title {
     display: flex;
 }
 .column {
-    background: white;
+    
     border: 5px solid white;
     flex: 1;
     padding: 100px;
@@ -58,3 +58,29 @@ title {
      color: #ff5151;
 }
 
+.column img {
+    max-width:500px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+}
+
+#eventos-saude {
+    background-color: #fffbce;
+}
+
+#eventos-gastronomia {
+    background-color: #fffbce;
+}
+
+#eventos-esporte {
+    background-color: #fffbce;
+}
+
+#eventos-musica {
+    background-color: #fffbce;
+}
+
+#eventos-teatro {
+    background-color: #fffbce;
+}
