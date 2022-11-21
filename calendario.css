@@ -1,12 +1,8 @@
-body {
-    width: 100%;
-    border-color: black;
-    border: 100px;
-    padding: 50px;
-    margin: 400px;
+#data {
+    background-color: #ccc;
+    margin: 20px;
+    border: 1px solid black;
 }
-head {
-    display: flex;
-    margin: 50px;
-    border: 50px;
+#body {
+    background-color: blue;
 }
