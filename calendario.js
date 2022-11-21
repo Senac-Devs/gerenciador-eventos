@@ -1,10 +1,10 @@
-function mostraData(){
-    let data=document.getElementById("data").value
-   let dataDoevento=();
-
-  if (data==dataDoevento){
-console.log("evevntos para o dia "+data+"")
-  }else{ console.log("não haverá eventos hj :(")
-  }
-    //console.log(data)
+function mostraData() {
+    let date = document.getElementById("data").value;
+    date = new Date(date).toLocaleDateString("pt-BR");
+    console.log(date);
+    let blocoEvento = document.getElementById("eventos-teatro");
+    let eventos = blocoEvento.getElementsByClassName("eventos");
+    for (let i = 0; i <= eventos.length; i++) {
+        console.log(eventos[i]);
+    }
 }
