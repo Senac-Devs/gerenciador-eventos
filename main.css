@@ -38,6 +38,7 @@ title {
 }
 .columns {
     display: flex;
+    flex-wrap: wrap;
 }
 .column {
     
@@ -81,6 +82,19 @@ title {
     background-color: #fffbce;
 }
 
-#eventos-teatro {
+#eventos-inauguracao {
     background-color: #fffbce;
+}
+
+#eventos-comemorativos {
+    background-color: #fffbce;
+}
+
+#eventos-esporadicos {
+    background-color: #fffbce;
+} 
+
+#eventos-informação {
+    background-color: #fffbce;
+
 }
