@@ -1,6 +1,5 @@
-let data = [0];
-//import data from "./evento.json";
-
-let eventos = JSON.stringify(data);
-eventos = data;
+let dataEvento = await flech("eventos.js");
+let eventos = JSON.parse(dataEvento);
+//JSON.parse(data);
+eventos = dataEvento;
 console.log(eventos);
