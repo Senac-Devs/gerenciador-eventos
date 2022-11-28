@@ -29,46 +29,46 @@ const listaEventos = [
     },
 
     {
-        categoria_gastronomia: {
+        categoria_gastronomia: [{
             organizador: "Festival",
             Local: "Teatro Municipal",
             data: "24/09/2022",
             horário: "08:00",
             evento: "Particular",
             classificação: "Livre",
-        },
+        }]
     },
 
     {
-        categoria_musica: {
+        categoria_musica: [{
             organizador: "Festival",
             Local: "Teatro Municipal",
             data: "24/09/2022",
             horário: "08:00",
             evento: "Particular",
             classificação: "Livre",
-        },
+        }]
     },
 
     {
-        categoria_saúde: {
+        categoria_saúde: [{
             organizador: "Festival",
             Local: "Teatro Municipal",
             data: "24/09/2022",
             horário: "08:00",
             evento: "Particular",
             classificação: "Livre",
-        },
+        }]
     },
 
     {
-        categoria_teatro: {
+        categoria_teatro: [{
             organizador: "Festival",
             Local: "Teatro Municipal",
             data: "24/09/2022",
             horário: "08:00",
             evento: "Particular",
             classificação: "Livre",
-        },
+        }]
     },
 ];
