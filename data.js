@@ -1,5 +1,3 @@
-let dataEvento = await flech("eventos.js");
+ dataEvento;
 let eventos = JSON.parse(dataEvento);
-//JSON.parse(data);
-eventos = dataEvento;
-console.log(eventos);
+console.log(dataEvento.data)
