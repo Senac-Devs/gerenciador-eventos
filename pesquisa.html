@@ -6,13 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Calendário</title>
         <h1>calendario de eventos</h1>
-        <script src="data.js"></script>
-        <script src="calendario.js"></script>
+        <link rel="stylesheet" href="main.css" />
         <script src="eventos.js"></script>
+        <script src="calendario.js"></script>
+        <script src="script.js"></script>
     </head>
     <body id="body">
         <input type="date" id="data" />
-        <input type="button" value="comfirmar" onclick="mostraData()" />
-
+        <input
+            type="button"
+            value="comfirmar"
+            onclick="mostraEventosEmData()"
+        />
+        <main id="main"></main>
     </body>
 </html>
