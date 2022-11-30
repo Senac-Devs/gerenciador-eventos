@@ -1,7 +1,7 @@
 function montaCardEvento(evento, categoria) {
     const divAlvo = document.getElementById(categoria);
     divAlvo.innerHTML += `<div class="column main-column evento">
- <img src="../${categoria}.png">
+ <img src="../img/${categoria}.png">
  <p class="organizador">${evento.organizador}</p>
  <p class="local">${evento.local}</p>
  <p class="data">${evento.data}</p> 
