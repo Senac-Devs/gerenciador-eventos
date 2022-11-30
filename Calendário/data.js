@@ -1,6 +1,3 @@
-let data = [];
-//import data from "./evento.json";
-let eventos = JSON.stringify(data);
-
-eventos = data;
-console.log(eventos);
+ dataEvento;
+let eventos = JSON.parse(dataEvento);
+console.log(dataEvento.data)
