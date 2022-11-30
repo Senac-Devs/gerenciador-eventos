@@ -27,6 +27,7 @@ title {
 #content {
     grid-area: content;
     height: 100vh;     
+  
       
 }
 #footer {
@@ -94,7 +95,13 @@ title {
     background-color: #fffbce;
 } 
 
+#eventos-teatro {
+    background-color: #fffbce;
+} 
+
+
 #eventos-informação {
     background-color: #fffbce;
-
+     color: black
 }
+
