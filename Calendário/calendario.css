@@ -1,8 +1,4 @@
-#data {
-    background-color: #ccc;
-    margin: 20px;
-    border: 1px solid black;
-}
-#body {
-    background-color: blue;
+
+.conteiner div {
+background-color: #fffbce;
 }
