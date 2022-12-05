@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 title {
     background-color: #0e4f62;
 }
@@ -7,19 +10,18 @@ title {
     padding: 20px;
     border: 1px solid #fffbce;
 }
-
-#header {
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header {
     grid-area: header;
     text-align: center;
     background-color: #ff5151;
 }
-#sidebar {
-    grid-area: sidebar;
-    height: 2vh;
-    text-align: center;
-    background-color: #fffbce;
-}
 #content {
+    background-color: #fffbce;
     grid-area: content;
     height: 100vh;
 }
@@ -75,6 +77,8 @@ title {
 
 #infos {
     background-color: #fffbce;
+    justify-content: center;
+    text-align: center;
 }
 
 #eventos-esporte {
