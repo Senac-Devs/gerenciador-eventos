@@ -1,13 +1,18 @@
-function mostraData() {
+function exibeEvento(categoria, evento) {
+    montaCategoria(categoria);
+
+    montaCardEvento(evento, categoria);
+}
+
+function mostraEventosEmData() {
+    document.getElementById("main").innerHTML = "";
     let date = document.getElementById("data").value;
     date = new Date(date).toLocaleDateString("pt-br", { timeZone: "UTC" });
-    console.log(date);
-
-    let blocoEvento = document.getElementById("eventos-teatro");
-    for (let i = 0; (i = eventos.length); i) {
-        if(date==eventos){console.log("true")
-        }else{
-            console.log("sem eventos hj")
-        }
+    for (let i = 0; i < listaEventos.length; i++) {
+        Object.entries(listaEventos[i]).forEach((categoria) =>
+            categoria[1].forEach((evento) =>
+                evento.data == date ? exibeEvento(categoria[0], evento) : ""
+            )
+        );
     }
 }
