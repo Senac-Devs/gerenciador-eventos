@@ -2,14 +2,23 @@ title {
     background-color: #0e4f62;
 }
 
+.container div {
+    background-color: #fffbce;
+    padding: 20px;
+    border: 1px solid #fffbce;
+}
+
 #header {
     grid-area: header;
     text-align: center;
     background-color: #ff5151;
-   height: 100px; 
 }
-
-
+#sidebar {
+    grid-area: sidebar;
+    height: 2vh;
+    text-align: center;
+    background-color: #fffbce;
+}
 #content {
     grid-area: content;
     height: 100vh;
@@ -17,16 +26,13 @@ title {
 #footer {
     grid-area: footer;
     background-color: #fffbce;
-    
-
 }
-
 
 .main-body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #fffbce  ;
+    background-color: #fffbce;
     padding: 20px;
     border: 1px solid #fffbce;
 }
@@ -37,7 +43,6 @@ title {
     display: flex;
     flex-wrap: wrap;
     background-color: #fffbce;
-   
 }
 .column {
     border: 5px solid white;
@@ -50,7 +55,6 @@ title {
 
 .categorias {
     font-weight: bold;
- 
 }
 
 .categorias {
@@ -69,9 +73,48 @@ title {
     background-color: #fffbce;
 }
 
-
 #infos {
     background-color: #fffbce;
-    color: #ff5151;
-    
+}
+
+#eventos-esporte {
+    background-color: #fffbce;
+}
+
+#eventos-musica {
+    background-color: #fffbce;
+}
+
+#eventos-inauguracao {
+    background-color: #fffbce;
+}
+
+#eventos-comemorativos {
+    background-color: #fffbce;
+}
+
+#eventos-esporadicos {
+    background-color: #fffbce;
+}
+
+#eventos-teatro {
+    background-color: #fffbce;
+}
+
+#eventos-informação {
+    background-color: #fffbce;
+    color: black;
+}
+
+.button {
+    border-radius: 5px;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    width: 40px;
+    cursor: pointer;
+    margin: 5px;
 }

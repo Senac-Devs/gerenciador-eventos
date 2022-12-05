@@ -1,4 +1,113 @@
+#estrutura {
+    background-color: #fffbce;
+    margin-bottom: 15%;
+    margin: 10px 50px 20px;
+}
+h1#identificado {
+    background-color: #fffbce;
+    margin-bottom: 15%;
+    margin: 10px 50px 20px;
+}
+.container div {
+    background-color: #fffbce;
+    padding: 20px;
+    border: 1px solidc;
+}
 
-.conteiner div {
-background-color: #fffbce;
+#header {
+    grid-area: header;
+    text-align: center;
+    background-color: #ff5151;
+}
+#sidebar {
+    grid-area: sidebar;
+    height: 2vh;
+    text-align: center;
+    background-color: #fffbce;
+}
+#content {
+    grid-area: content;
+    height: 100vh;
+}
+#footer {
+    grid-area: footer;
+}
+
+.classeblocos {
+    font-family: sans-serif;
+}
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+.column {
+    border: 5px solid white;
+    flex: 1;
+    padding: 100px;
+}
+.main-column {
+    flex: 1;
+}
+
+.categorias {
+    font-weight: bold;
+}
+
+.categorias {
+    font-family: courier, arial, helvetica;
+    color: #ff5151;
+}
+
+#eventos-saude {
+    background-color: #fffbce;
+}
+
+#eventos-gastronomia {
+    background-color: #fffbce;
+}
+
+.eventos-esporte {
+    background-color: #fffbce;
+}
+
+#eventos-musica {
+    background-color: #fffbce;
+}
+
+#eventos-inauguracao {
+    background-color: #fffbce;
+}
+
+#eventos-comemorativos {
+    background-color: #fffbce;
+}
+
+#eventos-esporadicos {
+    background-color: #fffbce;
+}
+
+#eventos-teatro {
+    background-color: #fffbce;
+}
+
+#eventos-informação {
+    background-color: #fffbce;
+    color: black;
+}
+
+#pesquisa {
+    font-family: courier, arial, helvetica;
+    color: #e41d1d;
+}
+.button {
+    border-radius: 5px;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    width: 40px;
+    cursor: pointer;
+    margin: 5px;
 }
