@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 title {
     background-color: #0e4f62;
 }
@@ -7,32 +10,41 @@ title {
     padding: 20px;
     border: 1px solid #fffbce;
 }
-
-#header {
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header {
     grid-area: header;
     text-align: center;
     background-color: #ff5151;
 }
-#sidebar {
-    grid-area: sidebar;
-    height: 2vh;
-    text-align: center;
-    background-color: #fffbce;
-}
 #content {
+    background-color: #fffbce;
     grid-area: content;
     height: 100vh;
 }
 #footer {
     grid-area: footer;
+    background-color: #fffbce;
 }
 
+.main-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fffbce;
+    padding: 20px;
+    border: 1px solid #fffbce;
+}
 .classeblocos {
     font-family: sans-serif;
 }
 .columns {
     display: flex;
     flex-wrap: wrap;
+    background-color: #fffbce;
 }
 .column {
     border: 5px solid white;
@@ -59,12 +71,14 @@ title {
     height: auto;
 }
 
-#eventos-saude {
+.eventos {
     background-color: #fffbce;
 }
 
-#eventos-gastronomia {
+#infos {
     background-color: #fffbce;
+    justify-content: center;
+    text-align: center;
 }
 
 #eventos-esporte {
