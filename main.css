@@ -6,29 +6,22 @@ title {
     background-color: #fffbce;
     padding: 20px;
     border: 1px solid #fffbce;
-    
 }
 
 #header {
     grid-area: header;
     text-align: center;
-    background-color: #ff5151
-  
+    background-color: #ff5151;
 }
 #sidebar {
     grid-area: sidebar;
     height: 2vh;
     text-align: center;
     background-color: #fffbce;
- 
-    
-
 }
 #content {
     grid-area: content;
-    height: 100vh;     
-  
-      
+    height: 100vh;
 }
 #footer {
     grid-area: footer;
@@ -42,7 +35,6 @@ title {
     flex-wrap: wrap;
 }
 .column {
-    
     border: 5px solid white;
     flex: 1;
     padding: 100px;
@@ -56,13 +48,13 @@ title {
 }
 
 .categorias {
-     font-family:courier,arial,helvetica;
-     color: #ff5151;
+    font-family: courier, arial, helvetica;
+    color: #ff5151;
 }
 
 .column img {
-    max-width:500px;
-    max-height:300px;
+    max-width: 500px;
+    max-height: 300px;
     width: auto;
     height: auto;
 }
@@ -93,15 +85,26 @@ title {
 
 #eventos-esporadicos {
     background-color: #fffbce;
-} 
+}
 
 #eventos-teatro {
     background-color: #fffbce;
-} 
-
+}
 
 #eventos-informação {
     background-color: #fffbce;
-     color: black
+    color: black;
 }
 
+.button {
+    border-radius: 5px;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    width: 40px;
+    cursor: pointer;
+    margin: 5px;
+}
