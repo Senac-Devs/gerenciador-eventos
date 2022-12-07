@@ -5,18 +5,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Calendário</title>
-        <h1 id="identificado">calendario de eventos</h1>
-        <H2></H2>
-        <button class="button" value="voltar" onclick="history.go(-1)"><span>Voltar </span></button>
-        <link rel="stylesheet" href="calendario.css" />
+        <h1 id="identificado">calendário de eventos</h1>
+        <button class="button" value="voltar" onclick="history.go(-1)">
+            <span>Voltar </span>
+        </button>
+        <link rel="stylesheet" href="./calendario.css" />
         <link rel="stylesheet" href="../main.css" />
         <script src="../arquivosjson/eventos.js"></script>
-        <script src="calendario.js"></script>
+        <script src="./calendario.js"></script>
         <script src="../arquivosjson/script.js"></script>
     </head>
     <body id="estrutura">
         <input type="date" id="data" />
         <input
+            class="button"
             type="button"
             value="comfirmar"
             onclick="mostraEventosEmData()"

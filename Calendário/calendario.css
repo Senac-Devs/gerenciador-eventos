@@ -3,11 +3,6 @@
     margin-bottom: 15%;
     margin: 10px 50px 20px;
 }
-h1#identificado {
-    background-color: #fffbce;
-    margin-bottom: 15%;
-    margin: 10px 50px 20px;
-}
 .container div {
     background-color: #fffbce;
     padding: 20px;
@@ -95,19 +90,9 @@ h1#identificado {
     color: black;
 }
 
-#pesquisa {
+#estrutura {
     font-family: courier, arial, helvetica;
     color: #e41d1d;
+    background-color: #fffbce;
 }
-.button {
-    border-radius: 5px;
-    background-color: #f4511e;
-    border: none;
-    color: white;
-    text-align: center;
-    font-size: 10px;
-    padding: 10px;
-    width: 40px;
-    cursor: pointer;
-    margin: 5px;
-}
+
