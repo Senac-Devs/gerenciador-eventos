@@ -6,9 +6,9 @@ title {
 }
 
 .container div {
-    background-color: #fffbce;
+    background-color: #8ecae6;
     padding: 20px;
-    border: 1px solid #fffbce;
+    border: 1px solid #8ecae6;
 }
 main {
     display: flex;
@@ -18,12 +18,15 @@ main {
 header {
     grid-area: header;
     text-align: center;
-    background-color: #ff5151;
+    background-color: #ffb703;
+    height: 20vh;
+    
 }
 #content {
-    background-color: #fffbce;
+    background-color: #fff1d0;
     grid-area: content;
     height: 100vh;
+    
 }
 #footer {
     grid-area: footer;
@@ -35,8 +38,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     background-color: #fffbce;
-    padding: 20px;
-    border: 1px solid #fffbce;
+    padding: 150px;
+    border: px solid #fffbce;
 }
 .classeblocos {
     font-family: sans-serif;
@@ -61,7 +64,7 @@ header {
 
 .categorias {
     font-family: courier, arial, helvetica;
-    color: #ff5151;
+    color: #086788;
 }
 
 .column img {
@@ -76,7 +79,7 @@ header {
 }
 
 #infos {
-    background-color: #fffbce;
+    background-color: #ffb703;
     justify-content: center;
     text-align: center;
 }
@@ -131,5 +134,4 @@ header {
 #infoDuv{
     font-family: courier, arial, helvetica;
     color: #ff5151;
-}  
-
+}
